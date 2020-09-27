@@ -1,7 +1,7 @@
 try:
     x = int(input('ENTER NUMBER:'))
 except ValueError as err:
-    print('!Invalid!, only intiger to be entered')
+    print('!Invalid!, only integer to be entered')
     exit ()
 
-print(x*x)
+print("Square of ", x, "is", x*x)
