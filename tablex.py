@@ -7,6 +7,10 @@ def get_number ():
     number = int(input('Enter a number: '))
     return number
 
+def get_limit():
+	limit = int(input('Enter the limit of the table: '))
+	return limit
+
 # The second function does the main thing, it prints the multiplication of the number entered.
 def print_table (number):
     for i in range (1,11):
